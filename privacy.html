@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Study Planner Privacy policy</title>
+<meta name="description" content="What AI Study Planner collects, where it goes, and what happens when you delete your account. The factual sections below describe how the app actually works. Sections marked as needing a decision are commitments the publisher has to make, and are deliberately not filled in with guesses.">
+<style>:root { color-scheme: light dark; --fg: #16161a; --bg: #fbfbfe;
+  --muted: #55555f; --line: #d9d9e3; --flag: #8a4b00; --flagbg: #fff4e5; }
+@media (prefers-color-scheme: dark) { :root { --fg: #ececf1; --bg: #16161a;
+  --muted: #a5a5b0; --line: #34343d; --flag: #ffc16b; --flagbg: #2a2015; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Helvetica, Arial, sans-serif; }
+main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 16px 4rem; }
+.app { margin: 0 0 .25rem; font-weight: 600; letter-spacing: .02em;
+  text-transform: uppercase; font-size: .78rem; color: var(--muted); }
+h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 .75rem; }
+h2 { font-size: 1.1rem; margin: 2rem 0 .5rem; }
+.dates, .intro { color: var(--muted); }
+.dates { font-size: .9rem; }
+.intro { border-bottom: 1px solid var(--line); padding-bottom: 1.25rem; }
+.banner, .gap { background: var(--flagbg); color: var(--flag);
+  border-left: 3px solid var(--flag); padding: .75rem 1rem; border-radius: 4px; }
+.gap { font-size: .92rem; }
+code { font-size: .88em; }
+ul { padding-left: 1.25rem; }
+li { margin: .35rem 0; }
+footer { margin-top: 3rem; padding-top: 1.25rem;
+  border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+<p class="app">AI Study Planner</p>
+<h1>AI Study Planner Privacy policy</h1>
+<p class="dates">
+Effective date: <strong>not yet in effect</strong> &mdash; this is a draft.<br>Last generated: 2026-09-30
+</p>
+<p class="intro">What AI Study Planner collects, where it goes, and what happens when you delete your account. The factual sections below describe how the app actually works. Sections marked as needing a decision are commitments the publisher has to make, and are deliberately not filled in with guesses.</p>
+<p class="banner"><strong>Draft.</strong> 7 section(s) below are waiting on a decision from whoever publishes this app, and are marked where they occur. Nothing has been filled in with a guess.</p>
+<section>
+<h2>Who is responsible for your data</h2>
+<p class="gap">
+<code>REQUIRES_PUBLISHER_DECISION</code><br>
+The legal identity of the publisher — trading name, company registration if any, and the country it operates from.
+</p>
+</section>
+<section>
+<h2>Account information</h2>
+<p>To sign in you provide an email address and a password. The password is never seen or stored by the app: it is passed straight to the authentication service, which stores a hash.</p>
+<p>A display name and a timezone are also held. The display name is optional and is only used to greet you; the timezone is taken from your device so that study sessions are scheduled in your local time.</p>
+</section>
+<section>
+<h2>Study planning data</h2>
+<p>Everything you enter to make the planner work is stored against your account and nothing else: courses, assignments, tasks, exams, your weekly availability, blocked periods, study preferences and reminder settings.</p>
+<p>The app also records the study sessions it schedules and the time you actually spend on them, because that is what the planner uses to reschedule work you have not finished.</p>
+</section>
+<section>
+<h2>Calendars you choose to connect</h2>
+<p>Connecting a calendar is optional and off until you turn it on. When it is on, the app reads when you are busy so that it does not schedule study over something already in your diary.</p>
+<p>You may also choose to have your study sessions written back to a calendar. The app creates its own calendar for that and writes only to it; it does not edit, move or delete events it did not create, and turning the connection off stops both directions.</p>
+<ul>
+<li>Google Calendar — read, and optional export.</li>
+<li>Microsoft Outlook Calendar — read, and optional export.</li>
+<li>Apple Calendar on the device — read, and optional export.</li>
+</ul>
+</section>
+<section>
+<h2>Learning platforms you choose to connect</h2>
+<p>Connecting a learning platform is optional and off until you turn it on. The app reads your courses and their assignment deadlines so you do not have to type them in, and shows you what it found before anything is added.</p>
+<p>It reads nothing else. No marks, no grades, no submissions, no feedback and no class lists are requested, and the app never writes anything back to an institution’s system.</p>
+<ul>
+<li>Canvas, Blackboard, Moodle and Google Classroom are supported.</li>
+<li>Access tokens are held by the backend, never by the app, and are removed when you disconnect the platform or delete your account.</li>
+</ul>
+</section>
+<section>
+<h2>How your data is separated from other people’s</h2>
+<p>Every table is protected by database row-level security keyed on your account. A request carrying your session can only ever read or write your own rows; this is enforced by the database itself, not only by the app.</p>
+</section>
+<section>
+<h2>AI document processing</h2>
+<p>If you choose to import an assignment from a PDF or a photo, that file is sent to an AI provider so the text can be read. It is sent over your own authenticated session, used for that one request, and is not stored: there is no file storage in this service at all.</p>
+<p>The AI only ever proposes. It cannot create, change or delete anything in your account, and nothing is saved until you have reviewed the suggestion and pressed Save.</p>
+<p>Asking the AI to break an assignment into tasks sends no file. It reads that assignment’s own title, description, deadline, weighting and course from the database.</p>
+</section>
+<section>
+<h2>Which AI provider, and on what terms</h2>
+<p class="gap">
+<code>REQUIRES_PUBLISHER_DECISION</code><br>
+The provider must be named, and their current terms on training and retention confirmed and stated. This repository cannot confirm the terms of somebody else’s account.
+</p>
+</section>
+<section>
+<h2>Voice entry and the microphone</h2>
+<p>The app can take an assignment by voice. The microphone is used only while you are on that screen and only after you press the button that starts listening; permission is asked for at that moment and at no other. Closing the screen releases it.</p>
+<p>No recording is kept. The audio is not written to a file, and the words it produces are held only while the screen is open so you can correct them — they are not saved anywhere, and nothing is added to your account until you press Create.</p>
+<p>The recognition itself is done by your device’s own speech service, not by this app. Where your device offers on-device recognition the app asks for it, and on Android 12 and later it checks that it is genuinely available before using it. Where it is not available, the platform service may send the audio to its own provider to transcribe it. That handling is governed by your device maker’s terms, not by this app.</p>
+</section>
+<section>
+<h2>Third parties</h2>
+<p>There is no analytics provider, no advertising network, no advertising or tracking library of any kind, and no crash reporter enabled. Nothing is sold to anyone, and nothing is shared with anyone for advertising.</p>
+<p>Two services are involved whenever you use the app. The rest are involved only if you turn on the feature that needs them.</p>
+<ul>
+<li>Always — the hosting and database provider, which runs the backend your account lives in.</li>
+<li>Always — the subscription provider, which is told your account identifier and your subscription status so the app knows whether Pro is active. The identifier is the random account id, never your email address.</li>
+<li>When you ask for an AI import or breakdown — the AI provider, which receives the document you chose, or that one assignment’s own text.</li>
+<li>When you connect a calendar — Google, Microsoft or Apple, depending which you connected.</li>
+<li>When you connect a learning platform — your institution’s Canvas, Blackboard or Moodle, or Google Classroom.</li>
+<li>When you use voice entry — your device’s own speech service, which may be your device maker’s.</li>
+<li>Your app store — Apple or Google — handles the payment itself.</li>
+</ul>
+</section>
+<section>
+<h2>Payments</h2>
+<p>Subscriptions are bought through the App Store or Google Play. Neither this app nor its backend ever sees your card details.</p>
+</section>
+<section>
+<h2>What is not collected</h2>
+<ul>
+<li>No location data.</li>
+<li>No advertising identifier, and no tracking across other apps or websites.</li>
+<li>No contacts, no photo library and no camera.</li>
+<li>No microphone except during voice entry, described above — and no recording is kept from it.</li>
+<li>No behavioural analytics.</li>
+<li>No crash reports — the capability exists in the code but is switched off and sends nothing.</li>
+<li>No marks, grades, submissions or class lists from a connected learning platform.</li>
+</ul>
+</section>
+<section>
+<h2>What is kept on your device</h2>
+<p>Some things are stored on the phone itself rather than in your account. They are working copies, not the record: deleting them loses nothing, and they are cleared when you sign out or delete your account.</p>
+<ul>
+<li>Your sign-in session, so you do not have to log in every time.</li>
+<li>Access tokens for a connected calendar on this device, in the platform’s encrypted storage.</li>
+<li>A small summary of today’s plan, if you add the home-screen widget — the next session and the day’s progress.</li>
+<li>The study session currently being timed, while the lock-screen timer is showing it.</li>
+<li>Which suggestions you have put away with “Not now”.</li>
+<li>Your theme choice, reminder settings and other preferences.</li>
+</ul>
+</section>
+<section>
+<h2>What other people can see on your screen</h2>
+<p>If you add the home-screen widget, or use the lock-screen study timer, then what they show — a task title, a course, the time left — can be read by anyone who can see your screen, without unlocking the phone. That is what those surfaces are for, and it is worth knowing before you put one on a shared or visible device. Removing the widget, or not using the timer, stops it.</p>
+</section>
+<section>
+<h2>Reminders</h2>
+<p>Reminders are scheduled and shown by your own device. They are not sent from a server, and there are no push notifications: the app has no push token and no messaging service.</p>
+</section>
+<section>
+<h2>Taking a copy of your data</h2>
+<p>Settings → Your data → Export my data writes everything in your account to a single JSON file, saved wherever you choose on your own device. Nothing is uploaded to produce it.</p>
+</section>
+<section>
+<h2>Deleting your account</h2>
+<p>Settings → Your data → Delete account removes your account and every row belonging to it, in one operation. This cannot be undone.</p>
+<p>Deleting your account does not cancel an App Store or Google Play subscription. Only the store can do that.</p>
+</section>
+<section>
+<h2>How long data is kept</h2>
+<p class="gap">
+<code>REQUIRES_PUBLISHER_DECISION</code><br>
+A retention period for accounts that are abandoned rather than deleted, and for any backups. The app deletes on request immediately; how long backups persist is an operational decision.
+</p>
+</section>
+<section>
+<h2>Security</h2>
+<p>All traffic is over HTTPS. Access is scoped to your own account by the database. The app holds no service credentials: every request it makes carries only your session.</p>
+</section>
+<section>
+<h2>Children and age</h2>
+<p class="gap">
+<code>REQUIRES_PUBLISHER_DECISION</code><br>
+A minimum age for the service, and how it is handled if a younger user signs up. This drives the store age rating too.
+</p>
+</section>
+<section>
+<h2>Your rights</h2>
+<p class="gap">
+<code>REQUIRES_PUBLISHER_DECISION</code><br>
+Which regime applies — UK GDPR, EU GDPR, Australian Privacy Principles, or another — and the rights and complaint route that follow from it.
+</p>
+</section>
+<section>
+<h2>Contact</h2>
+<p class="gap">
+<code>REQUIRES_SUPPORT_CONTACT</code><br>
+A monitored address for privacy enquiries. No address is invented here.
+</p>
+</section>
+<section>
+<h2>Changes to this policy</h2>
+<p class="gap">
+<code>REQUIRES_PUBLISHER_DECISION</code><br>
+How changes are notified, and from when they take effect.
+</p>
+</section>
+<footer>
+<p>AI Study Planner (<code>com.aistudyplanner</code>)</p>
+<p><a href="privacy.html">Privacy policy</a> &middot; <a href="terms.html">Terms of service</a> &middot; <a href="delete-account.html">Delete your account</a></p>
+</footer>
+</main>
+</body>
+</html>
